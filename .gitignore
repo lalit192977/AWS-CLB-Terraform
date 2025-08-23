@@ -1,0 +1,21 @@
+# Terraform state
+*.tfstate
+*.tfstate.backup
+
+# Crash log
+crash.log
+
+# Variable files with secrets
+*.tfvars
+terraform.tfvars
+!example-terraform.tfvars
+
+# Local .terraform directory
+.terraform/
+
+# Lock file (optional)
+.terraform.lock.hcl
+
+# key
+id_rsa
+id_rsa.pub
