@@ -6,8 +6,8 @@
 crash.log
 
 # Variable files with secrets
-*.tfvars
-terraform.tfvars
+# *.tfvars
+# terraform.tfvars
 !example-terraform.tfvars
 
 # Local .terraform directory
